@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:autogestao"
+
+    - path: "app/Main.hs"
+      component: "autogestao:exe:autogestao"
+
+    - path: "test"
+      component: "autogestao:test:tests"
